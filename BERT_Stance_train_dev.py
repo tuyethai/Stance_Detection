@@ -13,20 +13,20 @@ from sklearn.metrics import precision_recall_fscore_support
 
 #**** Global variable ***
 # dataset_name = "EMM_data_train_input"#"PULS_data_train_input"
-# data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+# data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 # data_file_path = data_folder+"EMM_data.csv"
 
 
 # dataset_name = "PULS_data_train_input"
-# data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+# data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 # data_file_path = data_folder+"polarity_data.csv"
 
 # dataset_name = "NLF_data_train_input"
-# data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+# data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 # data_file_path = data_folder+"NLF_data_train.csv"
 
 dataset_name = "German_data_train_input"
-data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 data_file_path = data_folder+"German_data_train.csv"
 
 
