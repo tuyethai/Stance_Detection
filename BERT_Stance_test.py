@@ -8,16 +8,16 @@ from torch.utils.data import TensorDataset, DataLoader, RandomSampler, Sequentia
 
 #**** Global variable ***
 # dataset_name = "PULS_data_test_input"
-# data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+# data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 # data_file_path = data_folder+"polarity_data.csv"
 # val_epoch='9'
-# output_dir = "/data/tnguye01/STANCE_DETECTION/PULS_data_train_input/" +"model_save/"+val_epoch
+# output_dir = "/hainguyen/STANCE_DETECTION/PULS_data_train_input/" +"model_save/"+val_epoch
 
 dataset_name = "EMM_data_test_input"
-data_folder = "/data/tnguye01/STANCE_DETECTION/" + dataset_name+"/"
+data_folder = "/hainguyen/STANCE_DETECTION/" + dataset_name+"/"
 data_file_path = data_folder+"EMM_data.csv"
 val_epoch='7'
-output_dir = "/data/tnguye01/STANCE_DETECTION/EMM_data_train_input/" +"model_save/"+val_epoch
+output_dir = "/hainguyen/STANCE_DETECTION/EMM_data_train_input/" +"model_save/"+val_epoch
 # **** Load model and test ****
 
 model = BertForSequenceClassification.from_pretrained(output_dir)
